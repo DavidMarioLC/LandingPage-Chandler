@@ -43,3 +43,11 @@ body {
   transition: background 250ms linear;
   margin: 0;
 }
+
+.darkmodeTheme {
+  --primary: #0057ff;
+  --secondary: #fff;
+  --background: #1b2831;
+  --button-secondary: #05b2f1;
+  --color-socials: #05b2f1;
+}
