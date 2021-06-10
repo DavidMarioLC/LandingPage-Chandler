@@ -1,0 +1,10 @@
+.footer {
+  margin-bottom: 112px;
+}
+.footer .text {
+  margin: 0;
+}
+
+.footer .link {
+  color: var(--color-socials);
+}

@@ -1,0 +1,17 @@
+.page {
+}
+
+.page .subtitle {
+  color: var(--primary);
+}
+.page__image {
+  margin: 2.5rem 0;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.page__image img {
+  display: inline-block;
+  max-width: 100%;
+}

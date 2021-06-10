@@ -1,0 +1,6 @@
+.subtitle {
+  font: var(--headline2-mobile);
+  color: var(--secondary);
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}

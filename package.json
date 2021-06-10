@@ -1,0 +1,15 @@
+{
+  "name": "portafolio-chandler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"servor --browse --reload"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "servor": "^4.0.2"
+  }
+}

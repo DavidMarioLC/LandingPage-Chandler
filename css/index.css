@@ -1,0 +1,45 @@
+@import "./wrapper.css";
+@import "./button.css";
+@import "./title.css";
+@import "./text.css";
+@import "./small.css";
+@import "./subtitle.css";
+@import "./hero.css";
+@import "./cta.css";
+@import "./projects.css";
+@import "./footer.css";
+@import "./header.css";
+@import "./page.css";
+:root {
+  --fontbase1: "Karla", sans-serif;
+  --fontbase2: "Neuton", serif;
+  --fontbase3: "Poppins", sans-serif;
+  --headline1-desktop: bold 6rem/6.625rem var(--fontbase2);
+  --headline1-mobile: bold 2rem/2.5rem var(--fontbase2);
+  --headline2-mobile: 1.5rem/2.218rem var(--fontbase1);
+  --text1-desktop: 1.875rem/2.6rem var(--fontbase1);
+  --text1-mobile: 1.5rem/2.2rem var(--fontbase1);
+  --text-button: bold 1.125rem/1.6875rem var(--fontbase1);
+  --text-menu-desktop: 1rem/1.5rem var(--fontbase1);
+  --text-menu-mobile: 1.5rem/5rem var(--fontbase1);
+  --text-small: 0.75rem/1rem var(--fontbase1);
+  --text-footer: 1.875rem/2.59rem var(--fontbase1);
+  --text-logo: 1rem/1rem var(--fontbase3);
+
+  --primary: #0000ff;
+  --secondary: #172326;
+  --white: #fff;
+  --background: #fff;
+  --button-secondary: #0000ff;
+  --color-socials: #0000ff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  transition: background 250ms linear;
+  margin: 0;
+}

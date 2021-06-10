@@ -1,0 +1,48 @@
+.buttons {
+  position: relative;
+}
+
+.cta {
+  position: absolute;
+  left: 250px;
+  bottom: -60px;
+}
+
+.cta__content {
+  position: relative;
+}
+
+@keyframes moverText {
+  0% {
+    transform: translateX(-60px) translateY(-12px);
+    transition: all 1s linear;
+  }
+
+  100% {
+    transform: translateX(-60px) translateY(-8px);
+    transition: all 1s linear;
+  }
+}
+
+@keyframes moverImage {
+  from {
+    transform: translateY(0);
+    transition: all 1s linear;
+  }
+  to {
+    transform: translateY(12px);
+    transition: all 1s linear;
+  }
+}
+
+.cta__content img {
+  transition: all 1s linear;
+  animation: moverImage 1s ease 0s infinite backwards running;
+}
+.cta__content p {
+  position: absolute;
+  margin: 0;
+  width: 70px;
+  transition: all 1s linear;
+  animation: moverText 1s ease 0s infinite backwards running;
+}

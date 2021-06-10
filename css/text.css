@@ -1,0 +1,10 @@
+.text {
+  font: var(--text1-mobile);
+  color: var(--secondary);
+}
+
+@media screen and (min-width: 768px) {
+  .text {
+    font: var(--text1-desktop);
+  }
+}
