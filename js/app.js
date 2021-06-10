@@ -2,10 +2,11 @@
 const menuIcon = document.querySelector('.hamburguer');
 const menu = document.querySelector('.menu');
 const menuStick =document.querySelector('.hamburguer-icon');
-
+const listLink = document.querySelectorAll(" .menu__link");
 const darkmode = document.querySelector('#darkmode');
 const darkmodeIcon = document.querySelector('#darkmode-icon');
 let hasDarkMode = localStorage.getItem('darkmode');
+
 
 
 
@@ -38,6 +39,10 @@ function deactivateDarkMode(){
     localStorage.setItem('darkmode','disable');
 }
 
+function gotosection(){
+    menu.classList.toggle('menu-active');
+} 
+
 
 
  function  darkModeToggle(e){
@@ -57,3 +62,6 @@ function deactivateDarkMode(){
 }
 menuIcon.addEventListener('click',showMenu);
 darkmode.addEventListener('click',darkModeToggle)
+listLink.forEach(function(link){
+    link.addEventListener("click",gotosection)
+})
